@@ -10,10 +10,9 @@ const bgm = document.getElementById('bgm');
 // Customize these:
 const MESSAGE = [
   "Let's see.. .",
-  "You're never around me,\nBut I want you constantly.",
-  "Your presence makes me happy,\nI want you for eternity.",
-  "Will you be my valentine?\nCause your hug makes me shine ",
-  "Happy Valentines Day, Piu!"
+  "You're never around me",
+  "Your presence makes me happy",
+  "Will you be my friend ?"
 ].join('\n\n');
 
 // Basic typewriter effect
