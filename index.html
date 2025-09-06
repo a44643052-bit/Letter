@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hello Cutie ❤️</title>
+  <link rel="preload" href="assets/bg-hearts.svg" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="A sweet, lightweight Valentine's Day page you can customize." />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <main class="card" role="main" aria-labelledby="title">
+    <h1 id="title">You're not a Fossil! <span class="tiny">(YET)</span> 💘</h1>
+    <h2 class="subtitle">(Hello Cutie)</h2>
+
+    <section class="letter" aria-live="polite">
+      <p class="to">Dear <span id="recipient">S</span>,</p>
+      <p id="typewriter"></p>
+      <p class="from">♥ <span id="sender">Tomato</span></p>
+    </section>
+
+    <div class="controls">
+      <button id="yesBtn" class="btn yes" aria-label="Say Yes">Yes 💖</button>
+      <button id="noBtn" class="btn no" aria-label="Say No">No 😅</button>
+      <button id="musicBtn" class="btn ghost" aria-label="Toggle Music">♫</button>
+    </div>
+  </main>
+
+  <img src="assets/heart.svg" alt="" class="floating-heart h1" />
+  <img src="assets/heart.svg" alt="" class="floating-heart h2" />
+  <img src="assets/heart.svg" alt="" class="floating-heart h3" />
+
+  <audio id="bgm" loop preload="none">
+    <!-- Replace assets/song.mp3 to add your own music -->
+    <source src="assets/song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
