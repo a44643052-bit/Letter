@@ -12,7 +12,7 @@ const MESSAGE = [
   "I owe you an apology that I should have given a long time ago. \n I betrayed your trust, and by cheating on you, I hurt the person who deserved nothing but honesty and loyalty from me. \n There are no excuses for what I did, and I take full responsibility.",
   "I live with a deep sense of guilt knowing that I broke something that was real and meaningful. \n I don’t expect forgiveness, but I want you to know that I am truly sorry. \n You gave me your love, and I failed you. \n That will always be one of the biggest regrets of my life.",
   "I hope that wherever life takes you, you find someone who gives you the love, respect, and faithfulness that I couldn’t.\n  You deserve nothing less.",
-  "If you ever feel comfortable, I would like us to at least be friends again. \n But if that’s not something you want, I’ll respect your choice completely. ?"
+  "If you ever feel comfortable, I would like us to at least be friends again. \n But if that’s Not something you want, I’ll respect your choice completely. ?"
 ].join('\n\n');
 
 // Basic typewriter effect
