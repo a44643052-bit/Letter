@@ -32,7 +32,7 @@ noBtn.addEventListener('click', () => {
   noClicks++;
   const scale = Math.min(1 + noClicks*0.18, 2.2);
   yesBtn.style.transform = `scale(${scale})`;
-  noBtn.textContent = noClicks < 3 ? 'Please?' : (noClicks < 6 ? 'Really? 🥺' : 'Ok fine 😭');
+  noBtn.textContent = noClicks < 3 ? 'Please?' : (noClicks < 10 ? 'Really? 🥺' : 'Ok fine 😭');
   if (noClicks > 6) {
     confetti();
   }
@@ -42,7 +42,7 @@ yesBtn.addEventListener('click', () => {
   confetti(240);
   yesBtn.disabled = true;
   noBtn.disabled = true;
-  yesBtn.textContent = 'Yaaay! 🎉';
+  yesBtn.textContent = 'Thankyouu!!! ❤️💕';
   noBtn.style.opacity = .5;
 });
 
